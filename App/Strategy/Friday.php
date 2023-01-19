@@ -6,13 +6,13 @@ use App\Interfaces\DayInterface;
 
 class Friday implements DayInterface
 {
-    public function displayMessage()
+    public function displayMessage(): String
     {
-        echo 'Hoje é sexta-feira';
+        return 'Hoje é sexta-feira';
     }
 
-    public function displayMessageSpecialDay()
+    public function displayMessageSpecialDay(): String
     {
-        echo 'DIA ESPECIAL - Hoje é sexta-feira';
+        return 'DIA ESPECIAL - Hoje é sexta-feira';
     }
 }

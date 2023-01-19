@@ -6,13 +6,13 @@ use App\Interfaces\DayInterface;
 
 class Satruday implements DayInterface
 {
-    public function displayMessage()
+    public function displayMessage(): String
     {
-        echo 'Hoje é sábado';
+        return 'Hoje é sábado';
     }
 
-    public function displayMessageSpecialDay()
+    public function displayMessageSpecialDay(): String
     {
-        echo 'DIA ESPECIAL - Hoje é sábado';
+        return 'DIA ESPECIAL - Hoje é sábado';
     }
 }

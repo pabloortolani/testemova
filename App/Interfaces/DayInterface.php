@@ -4,6 +4,6 @@ namespace App\Interfaces;
 
 interface DayInterface
 {
-    public function displayMessage();
-    public function displayMessageSpecialDay();
+    public function displayMessage(): String;
+    public function displayMessageSpecialDay(): String;
 }

@@ -7,13 +7,13 @@ use App\Interfaces\DayInterface;
 class Monday implements DayInterface
 {
 
-    public function displayMessage()
+    public function displayMessage(): String
     {
-        echo 'Hoje é segunda-feira';
+        return 'Hoje é segunda-feira';
     }
 
-    public function displayMessageSpecialDay()
+    public function displayMessageSpecialDay(): String
     {
-        echo 'DIA ESPECIAL - Hoje é segunda-feira';
+        return 'DIA ESPECIAL - Hoje é segunda-feira';
     }
 }

@@ -15,11 +15,11 @@ class DayOfWeekStrategy
 
     public function displayMessageDay()
     {
-        echo $this->dia->displayMessage();
+        return $this->dia->displayMessage();
     }
 
     public function displayMessageSpecialDay()
     {
-        echo $this->dia->displayMessageSpecialDay();
+        return $this->dia->displayMessageSpecialDay();
     }
 }
